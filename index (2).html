@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="夢の鍼灸整骨院・整体院 15周年記念キャンペーン。初めての方限定1,980円。腰痛・しびれ・坐骨神経痛の根本改善。松戸・八柱・みのり台・五香の4院。">
+<title>夢の鍼灸整骨院・整体院 15周年記念キャンペーン｜初回1,980円</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --navy:#0f2c5c;--navy-dark:#0a1f42;
+    --gold:#c9a04a;--gold-light:#e8c876;--gold-deep:#9a7820;
+    --red:#d72638;--red-dark:#a51a28;
+    --green:#1f8a4c;--orange:#e8731a;
+    --cream:#fdf9f0;--warm-bg:#f7f1e3;
+    --text:#1a1a1a;--text-muted:#5a5a5a;
+    --border:rgba(15,44,92,0.12);
+  }
+  html{scroll-behavior:smooth}
+  body{font-family:'Noto Sans JP',sans-serif;color:var(--text);background:var(--cream);line-height:1.7;font-weight:400;overflow-x:hidden}
+  .container{max-width:720px;margin:0 auto;background:#fff;box-shadow:0 0 60px rgba(0,0,0,0.08)}
+
+  /* HERO */
+  .hero{position:relative;background:radial-gradient(ellipse at top,#fff5d8 0%,#fdf9f0 40%,#f7e8c8 100%);padding:0 0 32px;overflow:hidden}
+  .hero-ribbon{background:var(--navy);color:#fff;text-align:center;padding:10px 16px;font-size:15px;font-weight:500;letter-spacing:0.05em;position:relative;z-index:3}
+  .hero-ribbon::before,.hero-ribbon::after{content:'';position:absolute;top:50%;width:8px;height:8px;background:var(--gold);border-radius:50%;transform:translateY(-50%)}
+  .hero-ribbon::before{left:24px}
+  .hero-ribbon::after{right:24px}
+  .hero-inner{position:relative;padding:32px 20px 0}
+  .hero-balloons{position:absolute;font-size:32px;line-height:1;pointer-events:none;animation:float 4s ease-in-out infinite}
+  .hero-balloon-1{top:20px;left:8px;animation-delay:0s}
+  .hero-balloon-2{top:50px;right:12px;animation-delay:0.8s;font-size:26px}
+  .hero-balloon-3{top:200px;left:14px;animation-delay:1.6s;font-size:24px}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-12px) rotate(3deg)}}
+  .hero-confetti{position:absolute;width:8px;height:8px;border-radius:2px;animation:fall 6s linear infinite}
+  @keyframes fall{0%{transform:translateY(-20px) rotate(0deg);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateY(500px) rotate(720deg);opacity:0}}
+  .hero-title-wrap{text-align:center;position:relative;z-index:2}
+  .hero-title{font-family:'Noto Serif JP',serif;font-size:24px;font-weight:900;color:var(--navy);line-height:1.3;margin-bottom:8px;letter-spacing:0.02em}
+  .hero-title::before,.hero-title::after{content:'';display:inline-block;width:24px;height:1px;background:var(--gold);vertical-align:middle;margin:0 12px 6px}
+  .hero-anniversary-wrap{position:relative;display:inline-block;padding:8px 24px;margin:8px 0 12px}
+  .hero-anniversary-wrap::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(232,200,118,0.3) 0%,transparent 70%);z-index:-1}
+  .hero-anniversary{font-family:'Noto Serif JP',serif;font-size:132px;font-weight:900;line-height:0.9;background:linear-gradient(180deg,#fff5d0 0%,#f0d27a 30%,#c9a04a 55%,#9a7820 80%,#c9a04a 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-0.04em;position:relative;text-shadow:2px 2px 0 rgba(154,120,32,0.15);filter:drop-shadow(0 4px 8px rgba(154,120,32,0.2))}
+  .hero-anniversary .small{font-size:168px;vertical-align:-0.05em;letter-spacing:-0.06em;margin-right:8px}
+  .hero-anniversary .mark{font-size:96px;background:linear-gradient(180deg,#ff6b6b 0%,#d72638 50%,#a51a28 100%);-webkit-background-clip:text;background-clip:text;color:transparent;margin-left:8px}
+  .hero-anniversary-sub{display:block;font-family:'Noto Serif JP',serif;font-size:28px;font-weight:900;color:var(--gold-deep);letter-spacing:0.15em;margin-top:-12px;text-shadow:1px 1px 0 rgba(255,255,255,0.8)}
+  .hero-stars{display:flex;justify-content:center;gap:6px;margin:4px 0 12px;color:var(--gold);font-size:14px}
+  .hero-tagline{display:inline-block;background:linear-gradient(135deg,#e8731a 0%,#d65f0c 100%);color:#fff;padding:10px 32px;font-size:16px;font-weight:700;margin-top:8px;clip-path:polygon(0 0,100% 0,calc(100% - 14px) 50%,100% 100%,0 100%,14px 50%);box-shadow:0 4px 12px rgba(232,115,26,0.3);letter-spacing:0.03em}
+  .hero-image{position:relative;height:280px;margin:20px 16px 0;border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,0.08)}
+  .hero-image img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+  .hero-message{text-align:center;font-size:17px;font-weight:700;color:var(--navy);margin-top:20px;line-height:1.55;position:relative;z-index:2}
+
+  /* PERIOD */
+  .period{background:var(--red);color:#fff;text-align:center;padding:14px 16px;font-size:18px;font-weight:700;margin:24px 16px 0;border-radius:6px;position:relative;box-shadow:0 4px 12px rgba(215,38,56,0.25)}
+  .period::before{content:'';position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border-style:solid;border-width:8px 8px 0;border-color:var(--red) transparent transparent}
+  .period .label{display:inline-block;background:#fff;color:var(--red);padding:2px 12px;border-radius:3px;font-size:14px;margin-right:8px;font-weight:700}
+
+  /* OFFERS */
+  .offers{padding:28px 16px 16px;display:flex;justify-content:center}
+  .offer-card{background:#fff;border:2px solid;border-radius:12px;padding:28px 24px 24px;text-align:center;position:relative;max-width:480px;width:100%}
+  .offer-first{border-color:var(--gold);background:linear-gradient(180deg,#fffbf0 0%,#fff 100%);box-shadow:0 4px 20px rgba(201,160,74,0.15)}
+  .offer-badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--red);color:#fff;font-size:13px;font-weight:700;padding:5px 18px;border-radius:20px;white-space:nowrap;box-shadow:0 2px 8px rgba(215,38,56,0.3)}
+  .offer-title{font-size:14px;color:var(--text-muted);margin:8px 0 8px;font-weight:500}
+  .offer-title .old-price{text-decoration:line-through;font-weight:700;color:var(--text);margin-left:4px}
+  .offer-price-new{font-family:'Noto Serif JP',serif;font-size:64px;font-weight:900;color:var(--red);line-height:1;letter-spacing:-0.02em;margin:8px 0}
+  .offer-price-new::before{content:'▶';font-size:24px;color:var(--red);vertical-align:middle;margin-right:4px}
+  .offer-price-new .yen{font-size:26px;font-weight:700}
+  .offer-price-new .tax{font-size:12px;color:var(--text-muted);font-weight:400;vertical-align:super}
+  .offer-includes{font-size:14px;color:var(--navy);margin-top:10px;font-weight:500;padding:8px 12px;background:rgba(201,160,74,0.1);border-radius:6px;display:inline-block}
+
+  /* SECTION HEADER */
+  .section-header{background:var(--navy);color:#fff;text-align:center;padding:14px 20px;font-size:19px;font-weight:700;margin:32px 16px 0;border-radius:6px;position:relative}
+  .section-header::before,.section-header::after{content:'';position:absolute;top:50%;width:24px;height:1px;background:var(--gold);transform:translateY(-50%)}
+  .section-header::before{left:20px}
+  .section-header::after{right:20px}
+
+  /* TROUBLES */
+  .troubles{padding:20px 16px;background:#fff}
+  .trouble-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
+  .trouble-list{list-style:none}
+  .trouble-list li{padding:8px 0 8px 30px;position:relative;font-size:14px;font-weight:500;line-height:1.5;border-bottom:1px dashed var(--border)}
+  .trouble-list li::before{content:'✓';position:absolute;left:0;top:8px;width:22px;height:22px;background:var(--red);color:#fff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+  .trouble-image{border-radius:10px;height:280px;overflow:hidden}
+  .trouble-image img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+
+  /* APPROACH */
+  .approach{padding:24px 16px;background:var(--warm-bg)}
+  .approach-flow{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;align-items:start;margin-top:8px}
+  .approach-step{background:#fff;border:1.5px solid var(--navy);border-radius:10px;padding:14px 6px;text-align:center;position:relative}
+  .approach-icon{width:48px;height:48px;margin:0 auto 8px;background:#eef2f9;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--navy)}
+  .approach-label{font-size:12px;font-weight:700;color:var(--navy);line-height:1.4}
+  .approach-arrow{position:absolute;right:-8px;top:50%;transform:translateY(-50%);color:var(--navy);font-weight:700;font-size:14px;z-index:2;background:var(--warm-bg);padding:0 2px}
+  .approach-step:last-child .approach-arrow{display:none}
+  .approach-note{text-align:center;font-size:13px;color:var(--navy);margin-top:14px;font-weight:500}
+
+  /* STAFF */
+  .staff{padding:24px 16px;background:#fff}
+  .staff-intro{text-align:center;font-size:14px;color:var(--text-muted);margin-bottom:20px;line-height:1.7}
+  .staff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .staff-card{background:var(--cream);border-radius:10px;padding:16px 12px;text-align:center;border:1px solid var(--border)}
+  .staff-photo{width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,#d4c098 0%,#b8a070 100%);margin:0 auto 10px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;text-align:center;line-height:1.3}
+  .staff-name{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:4px}
+  .staff-role{font-size:11px;color:var(--text-muted);margin-bottom:8px}
+  .staff-cert{font-size:11px;color:var(--gold-deep);font-weight:500;line-height:1.5}
+
+  /* VOICES */
+  .voices{padding:24px 16px;background:var(--warm-bg)}
+  .voice-card{background:#fff;border-radius:10px;padding:18px;margin-bottom:12px;border-left:4px solid var(--gold);box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+  .voice-card:last-child{margin-bottom:0}
+  .voice-header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+  .voice-avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--gold-light),var(--gold));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:16px}
+  .voice-meta{flex:1}
+  .voice-name{font-size:14px;font-weight:700;color:var(--navy)}
+  .voice-info{font-size:11px;color:var(--text-muted)}
+  .voice-stars{color:var(--gold);font-size:13px}
+  .voice-title{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:8px;line-height:1.4}
+  .voice-text{font-size:13px;line-height:1.7;color:var(--text)}
+  .voice-disclaimer{font-size:10px;color:var(--text-muted);text-align:center;margin-top:12px;line-height:1.5}
+
+  /* FAQ */
+  .faq{padding:24px 16px;background:#fff}
+  .faq-item{border-bottom:1px solid var(--border)}
+  .faq-question{width:100%;text-align:left;background:none;border:none;padding:16px 36px 16px 40px;cursor:pointer;font-size:14px;font-weight:700;color:var(--navy);position:relative;line-height:1.5;font-family:inherit}
+  .faq-question::before{content:'Q';position:absolute;left:8px;top:14px;width:24px;height:24px;background:var(--navy);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+  .faq-question::after{content:'+';position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:20px;color:var(--navy);font-weight:300;transition:transform 0.3s}
+  .faq-item.open .faq-question::after{transform:translateY(-50%) rotate(45deg)}
+  .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease-out}
+  .faq-item.open .faq-answer{max-height:300px}
+  .faq-answer-inner{padding:0 16px 16px 40px;font-size:13px;line-height:1.7;color:var(--text);position:relative}
+  .faq-answer-inner::before{content:'A';position:absolute;left:8px;top:0;width:24px;height:24px;background:var(--red);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+
+  /* TEL RESERVATION */
+  .reserve-section{padding:32px 16px;background:linear-gradient(180deg,#fff 0%,var(--warm-bg) 100%)}
+  .reserve-intro{text-align:center;font-size:14px;color:var(--text-muted);margin-bottom:24px;line-height:1.7}
+  .tel-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+  .tel-grid .tel-card:nth-child(5){grid-column:1 / -1}
+  .tel-card{
+    display:block;text-decoration:none;color:inherit;
+    background:#fff;border:1.5px solid var(--border);
+    border-radius:12px;padding:18px 16px;
+    transition:all 0.2s;text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.03);
+  }
+  .tel-card:hover{
+    border-color:var(--orange);transform:translateY(-2px);
+    box-shadow:0 6px 16px rgba(232,115,26,0.15);
+  }
+  .tel-card:active{transform:translateY(0)}
+  .tel-clinic-name{
+    font-size:15px;font-weight:700;color:var(--navy);
+    margin-bottom:4px;
+  }
+  .tel-station{
+    font-size:11px;color:var(--text-muted);margin-bottom:10px;
+  }
+  .tel-number{
+    font-size:18px;font-weight:700;color:var(--orange);
+    letter-spacing:0.02em;
+  }
+  .form-note{font-size:11px;color:var(--text-muted);text-align:center;margin-top:12px;line-height:1.6}
+
+  /* CLINICS */
+  .clinics{padding:24px 16px;background:var(--cream)}
+  .clinics-title{text-align:center;font-size:17px;font-weight:700;color:var(--navy);margin-bottom:6px}
+  .clinics-sub{text-align:center;font-size:12px;color:var(--text-muted);margin-bottom:16px}
+  .clinic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .clinic-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px 6px 10px;text-align:center;transition:all 0.2s;text-decoration:none;color:inherit;display:flex;flex-direction:column;justify-content:space-between}
+  .clinic-card:hover{border-color:var(--navy);transform:translateY(-2px);box-shadow:0 4px 12px rgba(15,44,92,0.1)}
+  .clinic-name{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:8px;line-height:1.3}
+  .clinic-cta{background:var(--orange);color:#fff;font-size:11px;font-weight:700;padding:6px 4px;border-radius:4px;margin-top:auto}
+
+  /* DISCLAIMER */
+  .disclaimer{padding:24px 16px;background:#f0ede4;font-size:11px;line-height:1.7;color:var(--text-muted)}
+  .disclaimer h3{font-size:13px;color:var(--navy);margin-bottom:8px;font-weight:700}
+  .disclaimer ul{margin-left:18px;margin-bottom:12px}
+  .disclaimer li{margin-bottom:4px}
+
+  /* FOOTER */
+  .footer{background:var(--navy);color:#fff;padding:20px 16px;text-align:center;font-size:12px}
+  .footer-brand{font-family:'Noto Serif JP',serif;font-size:16px;font-weight:700;margin-bottom:8px}
+  .footer-info{opacity:0.8;line-height:1.7}
+
+  /* STICKY MOBILE CTA */
+  .sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:#fff;padding:10px 12px;box-shadow:0 -4px 12px rgba(0,0,0,0.1);z-index:100;gap:8px}
+  .sticky-cta a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:12px;border-radius:8px;text-decoration:none;font-weight:700;font-size:14px}
+  .sticky-reserve-main{background:var(--orange);color:#fff}
+  .sticky-form{background:var(--navy);color:#fff}
+
+  /* ANIMATIONS */
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes zoomIn{from{opacity:0;transform:scale(0.7)}to{opacity:1;transform:scale(1)}}
+  @keyframes shimmer{0%,100%{filter:drop-shadow(0 4px 8px rgba(154,120,32,0.2)) brightness(1)}50%{filter:drop-shadow(0 6px 16px rgba(232,200,118,0.5)) brightness(1.1)}}
+  .hero-title{animation:fadeUp 0.8s ease-out 0.1s backwards}
+  .hero-anniversary{animation:zoomIn 1s cubic-bezier(0.34,1.56,0.64,1) 0.3s backwards,shimmer 3s ease-in-out 1.3s infinite}
+  .hero-anniversary-sub{animation:fadeUp 0.8s ease-out 0.6s backwards}
+  .hero-tagline{animation:fadeUp 0.8s ease-out 0.8s backwards}
+  .hero-stars{animation:fadeUp 0.8s ease-out 0.7s backwards}
+
+  /* RESPONSIVE */
+  @media (max-width:600px){
+    .hero-anniversary{font-size:108px}
+    .hero-anniversary .small{font-size:140px}
+    .hero-anniversary .mark{font-size:80px}
+    .hero-anniversary-sub{font-size:22px}
+    .hero-title{font-size:20px}
+    .hero-image{height:240px}
+    .offer-price-new{font-size:56px}
+    .offer-price-new .yen{font-size:22px}
+    .trouble-grid{grid-template-columns:1fr}
+    .trouble-image{height:180px}
+    .approach-flow{grid-template-columns:repeat(2,1fr);gap:8px}
+    .approach-step:nth-child(2) .approach-arrow{display:none}
+    .staff-grid{grid-template-columns:1fr;gap:10px}
+    .staff-card{display:flex;align-items:center;text-align:left;gap:14px;padding:12px}
+    .staff-photo{margin:0;flex-shrink:0;width:60px;height:60px}
+    .clinic-grid{grid-template-columns:repeat(2,1fr)}
+    .tel-grid{grid-template-columns:1fr;gap:10px}
+    .tel-grid .tel-card:nth-child(5){grid-column:auto}
+    .sticky-cta{display:flex}
+    body{padding-bottom:70px}
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <section class="hero">
+    <div class="hero-ribbon">地域の皆様に支えられて15年</div>
+    <div class="hero-inner">
+      <span class="hero-balloons hero-balloon-1">🎈</span>
+      <span class="hero-balloons hero-balloon-2">🎈</span>
+      <span class="hero-balloons hero-balloon-3">🎉</span>
+      <span class="hero-confetti" style="left:10%;background:#d72638;animation-delay:0s"></span>
+      <span class="hero-confetti" style="left:25%;background:#c9a04a;animation-delay:1s"></span>
+      <span class="hero-confetti" style="left:45%;background:#1f8a4c;animation-delay:2s"></span>
+      <span class="hero-confetti" style="left:65%;background:#e8731a;animation-delay:0.5s"></span>
+      <span class="hero-confetti" style="left:85%;background:#0f2c5c;animation-delay:1.5s"></span>
+      <div class="hero-title-wrap">
+        <h1 class="hero-title">夢の鍼灸整骨院・整体院</h1>
+        <div class="hero-stars">★ ★ ★ ★ ★</div>
+        <div class="hero-anniversary-wrap">
+          <div class="hero-anniversary"><span class="small">15</span>周年<span class="mark">!</span></div>
+          <span class="hero-anniversary-sub">ANNIVERSARY</span>
+        </div>
+        <div><span class="hero-tagline">感謝を込めて健康応援キャンペーン</span></div>
+      </div>
+      <div class="hero-image"><img src="260416_yumenoseitaiin_matudoten_059.jpg" alt="施術風景"></div>
+      <p class="hero-message">これからも皆様の健康を<br>全力でサポートします！</p>
+    </div>
+  </section>
+
+  <div class="period"><span class="label">期間限定</span>7/1(火) 〜 7/31(木) まで</div>
+
+  <section class="offers">
+    <div class="offer-card offer-first">
+      <span class="offer-badge">初めての方 限定特典</span>
+      <div class="offer-title">通常 <span class="old-price">7,960円</span><span style="font-size:11px">(税込)</span></div>
+      <div class="offer-price-new">1,980<span class="yen">円</span><span class="tax">(税込)</span></div>
+      <div class="offer-includes">カウンセリング ＋ 検査 ＋ 施術</div>
+    </div>
+  </section>
+
+  <div class="section-header">こんなお悩みはありませんか？</div>
+  <section class="troubles">
+    <div class="trouble-grid">
+      <ul class="trouble-list">
+        <li>朝起きると腰が痛い・首が重い</li>
+        <li>しびれが続いている（手・足・お尻など）</li>
+        <li>ヘルニア・狭窄症と診断された</li>
+        <li>長く歩くと足がしびれてつらい</li>
+        <li>坐骨神経痛でお尻から足にかけて痛む</li>
+        <li>肩こり・頭痛がひどく薬が手放せない</li>
+        <li>姿勢の悪さ・猫背が気になる</li>
+        <li>自律神経の乱れ・不眠・だるさ</li>
+      </ul>
+      <div class="trouble-image"><img src="260416_yumenoseitaiin_matudoten_077.jpg" alt="お悩みイメージ"></div>
+    </div>
+  </section>
+
+  <div class="section-header">根本改善を目指す当院のアプローチ</div>
+  <section class="approach">
+    <div class="approach-flow">
+      <div class="approach-step"><div class="approach-icon">🦴</div><div class="approach-label">姿勢・骨格<br>の調整</div><span class="approach-arrow">▶</span></div>
+      <div class="approach-step"><div class="approach-icon">⚡</div><div class="approach-label">神経への<br>アプローチ</div><span class="approach-arrow">▶</span></div>
+      <div class="approach-step"><div class="approach-icon">🧠</div><div class="approach-label">自律神経<br>の調整</div><span class="approach-arrow">▶</span></div>
+      <div class="approach-step"><div class="approach-icon">💪</div><div class="approach-label">インナー<br>マッスル強化</div></div>
+    </div>
+    <p class="approach-note">痛みの原因を見極め、再発しない体づくりをサポートします</p>
+  </section>
+
+  <div class="section-header">施術スタッフのご紹介</div>
+  <section class="staff">
+    <p class="staff-intro">国家資格を保有した経験豊富なスタッフが、<br>一人ひとりに合わせた施術プランをご提案します</p>
+    <div class="staff-grid">
+      <div class="staff-card">
+        <div class="staff-photo">写真<br>差替</div>
+        <div class="staff-name">猪狩 結輝</div>
+        <div class="staff-role">院長 / 施術歴15年</div>
+        <div class="staff-cert">柔道整復師</div>
+      </div>
+      <div class="staff-card">
+        <div class="staff-photo">写真<br>差替</div>
+        <div class="staff-name">松本 彩</div>
+        <div class="staff-role">院長 / 施術歴10年</div>
+        <div class="staff-cert">柔道整復師</div>
+      </div>
+      <div class="staff-card">
+        <div class="staff-photo">写真<br>差替</div>
+        <div class="staff-name">斎藤 大樹</div>
+        <div class="staff-role">主任 / 施術歴5年</div>
+        <div class="staff-cert">柔道整復師<br>トレーナー・採用担当</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-header">お客様の声</div>
+  <section class="voices">
+    <div class="voice-card">
+      <div class="voice-header">
+        <div class="voice-avatar">M</div>
+        <div class="voice-meta"><div class="voice-name">M.K 様（50代・女性）</div><div class="voice-info">坐骨神経痛でお悩みでした</div></div>
+        <div class="voice-stars">★★★★★</div>
+      </div>
+      <div class="voice-title">「歩くのが楽になりました」</div>
+      <div class="voice-text">長年悩んでいた足のしびれが、通院してから少しずつ改善しました。スタッフの皆さんが親身に話を聞いてくれて、施術内容も丁寧に説明してくださるので安心して通えます。</div>
+    </div>
+    <div class="voice-card">
+      <div class="voice-header">
+        <div class="voice-avatar">T</div>
+        <div class="voice-meta"><div class="voice-name">T.S 様（40代・男性）</div><div class="voice-info">慢性的な腰痛でお悩みでした</div></div>
+        <div class="voice-stars">★★★★★</div>
+      </div>
+      <div class="voice-title">「朝の腰の重さが消えました」</div>
+      <div class="voice-text">デスクワークでの腰痛がひどく、朝起きるのもつらい状態でした。原因から丁寧に説明してもらい、姿勢の改善まで含めて指導いただいたおかげで快適に過ごせています。</div>
+    </div>
+    <div class="voice-card">
+      <div class="voice-header">
+        <div class="voice-avatar">Y</div>
+        <div class="voice-meta"><div class="voice-name">Y.H 様（60代・女性）</div><div class="voice-info">肩こり・頭痛でお悩みでした</div></div>
+        <div class="voice-stars">★★★★★</div>
+      </div>
+      <div class="voice-title">「薬に頼らない毎日に」</div>
+      <div class="voice-text">頭痛薬が手放せなかったのですが、首・肩から整えていただくうちに薬の量が減りました。先生方が明るく、毎回通うのが楽しみです。</div>
+    </div>
+    <p class="voice-disclaimer">※ お客様の感想は個人の体験に基づくものであり、効果・効能を保証するものではありません。施術効果には個人差があります。</p>
+  </section>
+
+  <div class="section-header">よくあるご質問</div>
+  <section class="faq">
+    <div class="faq-item">
+      <button class="faq-question">予約は必要ですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">はい、より丁寧な施術のため予約優先制となっております。お電話または下記の予約フォームからご予約ください。当日のご予約も空き状況によりご対応可能です。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">健康保険は使えますか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">急性のケガ（捻挫・打撲・挫傷など）については健康保険適用となる場合があります。慢性的な肩こり・腰痛などは保険適用外となります。詳しくは受付でご相談ください。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">どんな服装で行けばいいですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">動きやすい服装が望ましいですが、お仕事帰りでもご安心ください。お着替え（施術着）を無料でご用意しております。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">施術時間はどれくらいですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">初回はカウンセリング・検査・施術を含めて約60〜90分、2回目以降は約30〜45分が目安です。お身体の状態によって前後する場合があります。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">支払い方法は？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">現金・各種クレジットカード・電子マネー・QRコード決済に対応しております。プリペイドカードもご利用いただけます。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">妊娠中・産後でも施術は受けられますか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">妊娠中の方や産後の方への施術にも対応しております。お身体の状態に合わせた施術プランをご提案いたしますので、事前にご相談ください。</div></div>
+    </div>
+  </section>
+
+  <div class="section-header">かんたん予約</div>
+  <section class="reserve-section" id="reserveForm">
+    <p class="reserve-intro">お気軽にお電話ください。<br>ご希望の院へ直接おつなぎいたします。</p>
+    <div class="tel-grid">
+      <a href="tel:0477118393" class="tel-card">
+        <div class="tel-clinic-name">みのり台院</div>
+        <div class="tel-station">「みのり台」駅 徒歩1分</div>
+        <div class="tel-number">📞 047-711-8393</div>
+      </a>
+      <a href="tel:0473838393" class="tel-card">
+        <div class="tel-clinic-name">八柱院</div>
+        <div class="tel-station">「八柱駅」 徒歩2分</div>
+        <div class="tel-number">📞 047-383-8393</div>
+      </a>
+      <a href="tel:0477015123" class="tel-card">
+        <div class="tel-clinic-name">松戸院</div>
+        <div class="tel-station">「松戸駅」 徒歩3分</div>
+        <div class="tel-number">📞 047-701-5123</div>
+      </a>
+      <a href="tel:0473825536" class="tel-card">
+        <div class="tel-clinic-name">五香院</div>
+        <div class="tel-station">「五香駅」 徒歩1分</div>
+        <div class="tel-number">📞 047-382-5536</div>
+      </a>
+    </div>
+    <p class="form-note">受付時間 9:00〜20:00（年中無休）<br>※ お電話が繋がりにくい時間帯もございます。あらかじめご了承ください。</p>
+  </section>
+
+  <section class="clinics">
+    <h2 class="clinics-title">各店舗の予約サイトはこちら</h2>
+    <p class="clinics-sub">タップすると各院の予約ページへ移動します</p>
+    <div class="clinic-grid">
+      <a href="https://example.com/minoridai/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">みのり台院</div><span class="clinic-cta">予約する ▶</span></a>
+      <a href="https://example.com/yabashira/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">八柱院</div><span class="clinic-cta">予約する ▶</span></a>
+      <a href="https://example.com/matsudo/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">松戸院</div><span class="clinic-cta">予約する ▶</span></a>
+      <a href="https://example.com/goko/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">五香院</div><span class="clinic-cta">予約する ▶</span></a>
+    </div>
+  </section>
+
+  <section class="disclaimer">
+    <h3>注意事項・免責事項</h3>
+    <ul>
+      <li>当院は医療機関ではなく、施術所（整骨院・接骨院）です。診断・診察・治療行為は行っておりません。</li>
+      <li>掲載しているお客様の声・体験談は個人の感想であり、施術効果を保証するものではありません。効果には個人差があります。</li>
+      <li>施術は医師の同意・指示のもとで行うものではなく、お客様ご自身の健康増進・身体ケアを目的としたものです。</li>
+      <li>急性外傷（捻挫・打撲・挫傷など）以外は健康保険適用外（自費施術）となります。</li>
+      <li>キャンペーン価格は表記の期間内・初回のみ適用となります。詳細は受付までお問い合わせください。</li>
+      <li>重度の症状・疾患をお持ちの方は、必ず事前に医療機関を受診し、医師にご相談のうえお越しください。</li>
+      <li>掲載されている写真はイメージです。実際の施術内容・設備とは異なる場合があります。</li>
+    </ul>
+    <p style="margin-top:12px">本ページは「医療広告ガイドライン」および「あはき・柔整広告ガイドライン」に準拠した表現を心がけて作成しております。</p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">夢の鍼灸整骨院・整体院</div>
+    <div class="footer-info">
+      みのり台院・八柱院・松戸院・五香院<br>
+      受付時間 9:00〜20:00（年中無休）<br>
+      <small style="opacity:0.6">© 夢の鍼灸整骨院・整体院 All Rights Reserved.</small>
+    </div>
+  </footer>
+
+</div>
+
+<div class="sticky-cta">
+  <a href="#reserveForm" class="sticky-reserve-main">📞 電話で予約</a>
+  <a href="#" onclick="document.querySelector('.clinics').scrollIntoView({behavior:'smooth'});return false;" class="sticky-form">🏥 院を選ぶ</a>
+</div>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => { btn.parentElement.classList.toggle('open'); });
+});
+function handleSubmit(e) {
+  e.preventDefault();
+  return false;
+}
+</script>
+
+</body>
+</html>
