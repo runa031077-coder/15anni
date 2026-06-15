@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="夢の鍼灸整骨院・整体院 15周年記念キャンペーン。初めての方限定1,980円。腰痛・しびれ・坐骨神経痛の根本改善。みのり台・八柱・松戸・五香の4院。">
+<title>夢の鍼灸整骨院・整体院 15周年記念キャンペーン｜初回1,980円</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --navy:#0f2c5c;--navy-dark:#0a1f42;
+    --gold:#c9a04a;--gold-light:#e8c876;--gold-deep:#9a7820;
+    --red:#d72638;--red-dark:#a51a28;
+    --green:#1f8a4c;--orange:#e8731a;
+    --cream:#fdf9f0;--warm-bg:#f7f1e3;
+    --text:#1a1a1a;--text-muted:#5a5a5a;
+    --border:rgba(15,44,92,0.12);
+  }
+  html{scroll-behavior:smooth}
+  body{font-family:'Noto Sans JP',sans-serif;color:var(--text);background:var(--cream);line-height:1.7;font-weight:400;overflow-x:hidden}
+  .container{max-width:720px;margin:0 auto;background:#fff;box-shadow:0 0 60px rgba(0,0,0,0.08)}
+
+  /* HERO */
+  .hero{position:relative;background:radial-gradient(ellipse at top,#fff5d8 0%,#fdf9f0 35%,#f7e8c8 100%);padding:0 0 36px;overflow:hidden}
+  .hero::before{content:'';position:absolute;top:-50px;left:-50px;width:200px;height:200px;background:radial-gradient(circle,rgba(232,200,118,0.25) 0%,transparent 70%);border-radius:50%;pointer-events:none}
+  .hero::after{content:'';position:absolute;bottom:0;right:-50px;width:240px;height:240px;background:radial-gradient(circle,rgba(232,200,118,0.2) 0%,transparent 70%);border-radius:50%;pointer-events:none}
+  .hero-ribbon{background:var(--navy);color:#fff;text-align:center;padding:11px 16px;font-size:14px;font-weight:600;letter-spacing:0.08em;position:relative;z-index:3}
+  .hero-ribbon::before,.hero-ribbon::after{content:'';position:absolute;top:50%;width:8px;height:8px;background:var(--gold);border-radius:50%;transform:translateY(-50%)}
+  .hero-ribbon::before{left:24px}
+  .hero-ribbon::after{right:24px}
+  .hero-inner{position:relative;padding:36px 20px 0;z-index:2}
+  .hero-title-wrap{text-align:center;position:relative;z-index:2}
+  .hero-area{display:inline-block;font-size:13px;color:var(--gold-deep);letter-spacing:0.18em;font-weight:700;margin-bottom:18px;padding:5px 16px;background:#fff;border-radius:20px;box-shadow:0 2px 8px rgba(154,120,32,0.15)}
+  .hero-area::before{content:'📍';margin-right:6px;font-size:12px}
+  .hero-main-title{font-family:'Noto Serif JP',serif;font-size:26px;font-weight:900;color:var(--navy);line-height:1.5;margin-bottom:8px;letter-spacing:0.02em}
+  .hero-main-title .lead-text{display:block;font-size:22px;margin-bottom:8px;position:relative}
+  .hero-main-title .lead-text::before,.hero-main-title .lead-text::after{content:'';display:inline-block;width:32px;height:1.5px;background:linear-gradient(90deg,transparent,var(--gold),transparent);vertical-align:middle;margin:0 14px 6px}
+  .hero-main-title .brand-wrap{display:block;position:relative;padding:6px 0 10px}
+  .hero-main-title .brand{display:inline-block;font-size:46px;background:linear-gradient(180deg,#f0d27a 0%,#c9a04a 40%,#9a7820 70%,#c9a04a 100%);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:0.04em;font-weight:900;text-shadow:2px 2px 0 rgba(154,120,32,0.1);filter:drop-shadow(0 3px 6px rgba(154,120,32,0.25));line-height:1.2}
+  .hero-stars{display:flex;justify-content:center;gap:8px;margin:14px 0 22px;color:var(--gold);font-size:18px;letter-spacing:0.15em;text-shadow:0 2px 4px rgba(201,160,74,0.3)}
+  .hero-catch-wrap{position:relative;display:inline-block;margin-bottom:22px;padding:2px}
+  .hero-catch-wrap::before,.hero-catch-wrap::after{content:'';position:absolute;width:18px;height:18px;border:2px solid var(--gold)}
+  .hero-catch-wrap::before{top:0;left:0;border-right:none;border-bottom:none}
+  .hero-catch-wrap::after{bottom:0;right:0;border-left:none;border-top:none}
+  .hero-catch{font-family:'Noto Serif JP',serif;font-size:17px;font-weight:700;color:var(--navy);line-height:1.75;padding:18px 28px;background:rgba(255,255,255,0.75);backdrop-filter:blur(4px);margin:0}
+  .hero-catch .emphasis{color:var(--red);font-size:19px}
+  .hero-tags{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+  .hero-tag{font-size:12px;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-dark) 100%);padding:7px 16px;border-radius:20px;letter-spacing:0.05em;box-shadow:0 3px 8px rgba(15,44,92,0.25);border:1px solid var(--gold)}
+  .hero-tag::before{content:'✓ ';color:var(--gold-light);font-weight:900}
+  .hero-image{position:relative;height:280px;margin:24px 16px 0;border-radius:14px;overflow:hidden;box-shadow:0 12px 32px rgba(15,44,92,0.18);border:3px solid #fff}
+  .hero-image img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+
+  /* PERIOD */
+  .period{background:var(--red);color:#fff;text-align:center;padding:14px 16px;font-size:18px;font-weight:700;margin:24px 16px 0;border-radius:6px;position:relative;box-shadow:0 4px 12px rgba(215,38,56,0.25)}
+  .period::before{content:'';position:absolute;left:50%;bottom:-8px;transform:translateX(-50%);border-style:solid;border-width:8px 8px 0;border-color:var(--red) transparent transparent}
+  .period .label{display:inline-block;background:#fff;color:var(--red);padding:2px 12px;border-radius:3px;font-size:14px;margin-right:8px;font-weight:700}
+
+  /* OFFERS */
+  .offers{padding:28px 16px 16px;display:flex;justify-content:center}
+  .offer-card{background:#fff;border:2px solid;border-radius:12px;padding:28px 24px 24px;text-align:center;position:relative;max-width:480px;width:100%;overflow:hidden}
+  .offer-first{border-color:var(--gold);background:linear-gradient(180deg,#fffbf0 0%,#fff 100%);box-shadow:0 4px 20px rgba(201,160,74,0.15)}
+  .offer-badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--red);color:#fff;font-size:13px;font-weight:700;padding:5px 18px;border-radius:20px;white-space:nowrap;box-shadow:0 2px 8px rgba(215,38,56,0.3);z-index:2}
+  .offer-image{width:100%;height:160px;border-radius:10px;overflow:hidden;margin-bottom:18px;background:#f5f0e0}
+  .offer-image img{width:100%;height:100%;object-fit:cover;display:block}
+  .offer-title{font-size:14px;color:var(--text-muted);margin:8px 0 8px;font-weight:500}
+  .offer-title .old-price{text-decoration:line-through;font-weight:700;color:var(--text);margin-left:4px}
+  .offer-price-new{font-family:'Noto Serif JP',serif;font-size:64px;font-weight:900;color:var(--red);line-height:1;letter-spacing:-0.02em;margin:8px 0}
+  .offer-price-new::before{content:'▶';font-size:24px;color:var(--red);vertical-align:middle;margin-right:4px}
+  .offer-price-new .yen{font-size:26px;font-weight:700}
+  .offer-price-new .tax{font-size:12px;color:var(--text-muted);font-weight:400;vertical-align:super}
+  .offer-includes{font-size:14px;color:var(--navy);margin-top:10px;font-weight:500;padding:8px 12px;background:rgba(201,160,74,0.1);border-radius:6px;display:inline-block}
+
+  /* SECTION LABEL (英字小見出し) */
+  .section-label{text-align:center;font-family:'Noto Serif JP',serif;font-size:13px;font-weight:700;color:var(--gold-deep);letter-spacing:0.4em;margin:48px 0 -8px;padding:0 16px}
+
+  /* SECTION HEADER */
+  .section-header{background:var(--navy);color:#fff;text-align:center;padding:14px 20px;font-size:19px;font-weight:700;margin:12px 16px 0;border-radius:6px;position:relative}
+  .section-header::before,.section-header::after{content:'';position:absolute;top:50%;width:24px;height:1px;background:var(--gold);transform:translateY(-50%)}
+  .section-header::before{left:20px}
+  .section-header::after{right:20px}
+
+  /* TROUBLES */
+  .troubles{padding:20px 16px;background:#fff}
+  .trouble-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
+  .trouble-list{list-style:none}
+  .trouble-list li{padding:8px 0 8px 30px;position:relative;font-size:14px;font-weight:500;line-height:1.5;border-bottom:1px dashed var(--border)}
+  .trouble-list li::before{content:'✓';position:absolute;left:0;top:8px;width:22px;height:22px;background:var(--red);color:#fff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+  .trouble-image{border-radius:10px;height:280px;overflow:hidden}
+  .trouble-image img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+
+  /* MESSAGE BLOCK */
+  .message-block{padding:32px 20px;background:linear-gradient(180deg,var(--warm-bg) 0%,#fff 100%);text-align:center}
+  .message-block-title{font-family:'Noto Serif JP',serif;font-size:22px;font-weight:700;color:var(--navy);line-height:1.5;margin-bottom:20px}
+  .message-block-title .accent{color:var(--red);font-size:26px;display:block;margin-bottom:8px}
+  .message-block-text{font-size:15px;line-height:1.9;color:var(--text);text-align:left;max-width:620px;margin:0 auto}
+
+  /* REASONS (3つの選ばれる理由) */
+  .reasons{padding:24px 16px;background:#fff}
+  .reason-card{background:linear-gradient(180deg,#fffbf0 0%,#fff 100%);border:1.5px solid var(--gold);border-radius:14px;padding:24px 20px;margin-bottom:20px;position:relative}
+  .reason-card:last-child{margin-bottom:0}
+  .reason-number{position:absolute;top:-14px;left:20px;background:var(--navy);color:#fff;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Noto Serif JP',serif;font-size:22px;font-weight:900;box-shadow:0 4px 12px rgba(15,44,92,0.25)}
+  .reason-number::after{content:'';position:absolute;inset:-3px;border:1.5px solid var(--gold);border-radius:50%}
+  .reason-icon{font-size:48px;text-align:center;margin:12px 0 4px;display:flex;align-items:center;justify-content:center}
+  .reason-icon-image{width:120px;height:120px;border-radius:12px;overflow:hidden;margin:12px auto 8px;background:#f5f0e0;display:flex;align-items:center;justify-content:center}
+  .reason-icon-image img{width:100%;height:100%;object-fit:cover;display:block}
+  .reason-title{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;color:var(--navy);text-align:center;margin-bottom:12px;line-height:1.4}
+  .reason-text{font-size:14px;line-height:1.8;color:var(--text)}
+
+  /* QUESTION CARD (4つの疑問にお答えします) */
+  .question-block{padding:32px 16px;background:linear-gradient(135deg,#0f2c5c 0%,#0a1f42 100%);color:#fff}
+  .question-label{text-align:center;font-family:'Noto Serif JP',serif;font-size:13px;font-weight:700;color:var(--gold-light);letter-spacing:0.4em;margin-bottom:16px}
+  .question-intro{text-align:center;font-size:16px;font-weight:500;margin-bottom:24px;line-height:1.8;opacity:0.95}
+  .question-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+  .question-card{background:rgba(255,255,255,0.08);border:1px solid rgba(232,200,118,0.3);border-radius:10px;padding:18px 14px;text-align:center;backdrop-filter:blur(8px)}
+  .question-card-num{font-family:'Noto Serif JP',serif;font-size:28px;font-weight:900;color:var(--gold-light);line-height:1;margin-bottom:8px}
+  .question-card-text{font-size:13px;line-height:1.6;font-weight:500}
+  .question-card-text strong{color:var(--gold-light);display:block;font-size:14px;margin-top:4px}
+  .question-conclusion{text-align:center;font-size:16px;font-weight:700;color:var(--gold-light);margin-top:8px}
+
+  /* WARNING (3段階アラート) */
+  .warning-block{padding:24px 16px;background:#fff}
+  .warning-flow{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:24px;align-items:stretch}
+  .warning-step{background:var(--cream);border:1.5px solid var(--border);border-radius:10px;padding:16px 10px;text-align:center;position:relative}
+  .warning-step.lv1{border-color:#7cb05a}
+  .warning-step.lv2{border-color:var(--orange)}
+  .warning-step.lv3{border-color:var(--red);background:#ffeeee}
+  .warning-step-icon{font-size:32px;margin-bottom:6px}
+  .warning-step-image{width:60px;height:60px;border-radius:50%;overflow:hidden;margin:0 auto 8px;background:#fff;display:flex;align-items:center;justify-content:center}
+  .warning-step-image img{width:100%;height:100%;object-fit:cover;display:block}
+  .warning-step-label{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:6px;line-height:1.3}
+  .warning-step-desc{font-size:11px;color:var(--text-muted);line-height:1.5}
+  .warning-conclusion{background:linear-gradient(180deg,#fff5d8 0%,#fdf9f0 100%);border-left:4px solid var(--red);border-radius:8px;padding:18px 18px;font-size:14px;line-height:1.8}
+  .warning-conclusion strong{color:var(--red);font-size:15px;display:block;margin-bottom:8px}
+
+  /* CAUSES (4つの根本原因) */
+  .causes{padding:24px 16px;background:var(--warm-bg)}
+  .cause-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+  .cause-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px 14px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+  .cause-card-icon{width:56px;height:56px;margin:0 auto 10px;background:linear-gradient(135deg,#fff5d8,#f0d27a);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;overflow:hidden}
+  .cause-card-icon img{width:100%;height:100%;object-fit:cover;display:block}
+  .cause-card-num{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:900;color:var(--gold-deep);margin-bottom:4px}
+  .cause-card-title{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:8px;line-height:1.3}
+  .cause-card-text{font-size:12px;line-height:1.7;color:var(--text-muted)}
+  .cause-conclusion{text-align:center;font-size:14px;color:var(--navy);font-weight:500;line-height:1.7;padding:12px;background:#fff;border-radius:8px}
+  .cause-conclusion strong{color:var(--red);font-weight:700}
+
+  /* COMPARE (対処vs根本) */
+  .compare{padding:24px 16px;background:#fff}
+  .compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+  .compare-col{border-radius:12px;padding:20px 16px;text-align:center}
+  .compare-bad{background:#f5f5f5;border:1px solid #d0d0d0}
+  .compare-good{background:linear-gradient(180deg,#f0faf4 0%,#fff 100%);border:2px solid var(--green)}
+  .compare-mark{font-size:28px;font-weight:900;margin-bottom:8px;line-height:1}
+  .compare-mark.bad{color:#999}
+  .compare-mark.good{color:var(--green)}
+  .compare-image{width:80px;height:80px;border-radius:50%;overflow:hidden;margin:0 auto 10px;display:flex;align-items:center;justify-content:center}
+  .compare-image.bad{background:#e8e8e8;border:2px solid #c0c0c0}
+  .compare-image.good{background:#e0f5e9;border:2px solid var(--green)}
+  .compare-image img{width:100%;height:100%;object-fit:cover;display:block}
+  .compare-title{font-size:16px;font-weight:700;margin-bottom:12px}
+  .compare-title.bad{color:#666}
+  .compare-title.good{color:var(--green)}
+  .compare-list{list-style:none;text-align:left;font-size:13px;line-height:2}
+  .compare-list li{padding-left:18px;position:relative}
+  .compare-bad .compare-list li::before{content:'・';position:absolute;left:0;color:#999}
+  .compare-good .compare-list li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:700}
+  .compare-result{margin-top:14px;padding:10px;border-radius:6px;font-size:13px;font-weight:700}
+  .compare-bad .compare-result{background:#e8e8e8;color:#666}
+  .compare-good .compare-result{background:var(--green);color:#fff}
+  .compare-final{text-align:center;font-size:15px;line-height:1.8;color:var(--navy);font-weight:500;padding:16px;background:var(--cream);border-radius:8px}
+  .compare-final strong{color:var(--red);font-weight:700}
+
+  /* SOLUTION (3本柱) */
+  .solution{padding:24px 16px;background:var(--cream)}
+  .solution-intro{text-align:center;font-size:14px;color:var(--text-muted);margin-bottom:20px;line-height:1.7}
+  .solution-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:20px}
+  .solution-card{background:#fff;border-radius:14px;padding:20px;display:grid;grid-template-columns:64px 1fr;gap:16px;align-items:center;box-shadow:0 4px 16px rgba(0,0,0,0.06);border-left:5px solid var(--gold)}
+  .solution-num{font-family:'Noto Serif JP',serif;font-size:32px;font-weight:900;color:var(--gold);line-height:1;text-align:center}
+  .solution-num-label{font-size:10px;font-weight:500;color:var(--text-muted);letter-spacing:0.1em;display:block;margin-top:4px}
+  .solution-content-title{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:4px;line-height:1.3}
+  .solution-content-tag{font-size:11px;color:var(--gold-deep);font-weight:500;margin-bottom:6px}
+  .solution-content-text{font-size:13px;line-height:1.7;color:var(--text)}
+  .solution-conclusion{text-align:center;font-size:15px;color:var(--navy);font-weight:700;line-height:1.7;padding:12px}
+  .solution-conclusion strong{color:var(--red)}
+
+  /* FEATURES (8つの特徴) */
+  .features{padding:24px 16px;background:#fff}
+  .feature-card{background:linear-gradient(180deg,#fffbf0 0%,#fff 100%);border:1px solid var(--border);border-radius:10px;padding:16px 16px 16px 56px;margin-bottom:12px;position:relative}
+  .feature-card:last-child{margin-bottom:0}
+  .feature-num{position:absolute;left:14px;top:14px;width:32px;height:32px;background:var(--navy);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Noto Serif JP',serif;font-weight:900;font-size:14px}
+  .feature-title{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:6px;line-height:1.4}
+  .feature-text{font-size:12px;line-height:1.7;color:var(--text-muted)}
+
+  /* VOICES */
+  .voices{padding:24px 16px;background:var(--warm-bg)}
+  .voice-card{background:#fff;border-radius:10px;padding:18px;margin-bottom:12px;border-left:4px solid var(--gold);box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+  .voice-card:last-child{margin-bottom:0}
+  .voice-header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+  .voice-avatar{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--gold-light),var(--gold));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px;overflow:hidden;flex-shrink:0}
+  .voice-avatar img{width:100%;height:100%;object-fit:cover;display:block}
+  .voice-meta{flex:1}
+  .voice-name{font-size:14px;font-weight:700;color:var(--navy)}
+  .voice-info{font-size:11px;color:var(--text-muted)}
+  .voice-stars{color:var(--gold);font-size:13px}
+  .voice-title{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:8px;line-height:1.4}
+  .voice-text{font-size:13px;line-height:1.7;color:var(--text)}
+  .voice-disclaimer{font-size:10px;color:var(--text-muted);text-align:center;margin-top:12px;line-height:1.5}
+
+  /* FAQ */
+  .faq{padding:24px 16px;background:#fff}
+  .faq-item{border-bottom:1px solid var(--border)}
+  .faq-question{width:100%;text-align:left;background:none;border:none;padding:16px 36px 16px 40px;cursor:pointer;font-size:14px;font-weight:700;color:var(--navy);position:relative;line-height:1.5;font-family:inherit}
+  .faq-question::before{content:'Q';position:absolute;left:8px;top:14px;width:24px;height:24px;background:var(--navy);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+  .faq-question::after{content:'+';position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:20px;color:var(--navy);font-weight:300;transition:transform 0.3s}
+  .faq-item.open .faq-question::after{transform:translateY(-50%) rotate(45deg)}
+  .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease-out}
+  .faq-item.open .faq-answer{max-height:300px}
+  .faq-answer-inner{padding:0 16px 16px 40px;font-size:13px;line-height:1.7;color:var(--text);position:relative}
+  .faq-answer-inner::before{content:'A';position:absolute;left:8px;top:0;width:24px;height:24px;background:var(--red);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+
+  /* TEL RESERVATION */
+  .reserve-section{padding:32px 16px;background:linear-gradient(180deg,#fff 0%,var(--warm-bg) 100%)}
+  .reserve-intro{text-align:center;font-size:14px;color:var(--text-muted);margin-bottom:24px;line-height:1.7}
+  .tel-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+  .tel-card{display:block;text-decoration:none;color:inherit;background:#fff;border:1.5px solid var(--border);border-radius:12px;padding:18px 16px;transition:all 0.2s;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.03)}
+  .tel-card:hover{border-color:var(--orange);transform:translateY(-2px);box-shadow:0 6px 16px rgba(232,115,26,0.15)}
+  .tel-card:active{transform:translateY(0)}
+  .tel-clinic-name{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:4px}
+  .tel-station{font-size:11px;color:var(--text-muted);margin-bottom:10px}
+  .tel-number{font-size:18px;font-weight:700;color:var(--orange);letter-spacing:0.02em}
+  .form-note{font-size:11px;color:var(--text-muted);text-align:center;margin-top:12px;line-height:1.6}
+
+  /* CLINICS */
+  .clinics{padding:24px 16px;background:var(--cream)}
+  .clinics-title{text-align:center;font-size:17px;font-weight:700;color:var(--navy);margin-bottom:6px}
+  .clinics-sub{text-align:center;font-size:12px;color:var(--text-muted);margin-bottom:16px}
+  .clinic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .clinic-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px 6px 10px;text-align:center;transition:all 0.2s;text-decoration:none;color:inherit;display:flex;flex-direction:column;justify-content:space-between}
+  .clinic-card:hover{border-color:var(--navy);transform:translateY(-2px);box-shadow:0 4px 12px rgba(15,44,92,0.1)}
+  .clinic-name{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:8px;line-height:1.3}
+  .clinic-cta{background:var(--orange);color:#fff;font-size:11px;font-weight:700;padding:6px 4px;border-radius:4px;margin-top:auto}
+
+  /* DISCLAIMER */
+  .disclaimer{padding:24px 16px;background:#f0ede4;font-size:11px;line-height:1.7;color:var(--text-muted)}
+  .disclaimer h3{font-size:13px;color:var(--navy);margin-bottom:8px;font-weight:700}
+  .disclaimer ul{margin-left:18px;margin-bottom:12px}
+  .disclaimer li{margin-bottom:4px}
+
+  /* FOOTER */
+  .footer{background:var(--navy);color:#fff;padding:20px 16px;text-align:center;font-size:12px}
+  .footer-brand{font-family:'Noto Serif JP',serif;font-size:16px;font-weight:700;margin-bottom:8px}
+  .footer-info{opacity:0.8;line-height:1.7}
+
+  /* STICKY MOBILE CTA */
+  .sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:#fff;padding:10px 12px;box-shadow:0 -4px 12px rgba(0,0,0,0.1);z-index:100;gap:8px}
+  .sticky-cta a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:12px;border-radius:8px;text-decoration:none;font-weight:700;font-size:14px}
+  .sticky-reserve-main{background:var(--orange);color:#fff}
+  .sticky-form{background:var(--navy);color:#fff}
+
+  /* ANIMATIONS */
+  @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  .hero-main-title{animation:fadeUp 0.8s ease-out 0.1s backwards}
+  .hero-catch{animation:fadeUp 0.8s ease-out 0.4s backwards}
+  .hero-tags{animation:fadeUp 0.8s ease-out 0.6s backwards}
+
+  /* RESPONSIVE */
+  @media (max-width:600px){
+    .hero-main-title{font-size:22px}
+    .hero-main-title .lead-text{font-size:19px}
+    .hero-main-title .lead-text::before,.hero-main-title .lead-text::after{width:20px;margin:0 8px 5px}
+    .hero-main-title .brand{font-size:34px}
+    .hero-catch{font-size:14px;padding:14px 18px;line-height:1.7}
+    .hero-catch .emphasis{font-size:16px}
+    .hero-tag{font-size:11px;padding:6px 12px}
+    .hero-image{height:220px}
+    .offer-price-new{font-size:56px}
+    .offer-price-new .yen{font-size:22px}
+    .trouble-grid{grid-template-columns:1fr}
+    .trouble-image{height:180px}
+    .message-block-title{font-size:18px}
+    .question-grid{grid-template-columns:1fr 1fr;gap:8px}
+    .warning-flow{grid-template-columns:1fr;gap:10px}
+    .cause-grid{grid-template-columns:1fr 1fr}
+    .compare-grid{grid-template-columns:1fr}
+    .clinic-grid{grid-template-columns:repeat(2,1fr)}
+    .tel-grid{grid-template-columns:1fr;gap:10px}
+    .sticky-cta{display:flex}
+    body{padding-bottom:70px}
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-ribbon">医師も絶賛・口コミで話題の整体</div>
+    <div class="hero-inner">
+      <div class="hero-title-wrap">
+        <p class="hero-area">松戸市みのり台・八柱・松戸・五香</p>
+        <h1 class="hero-main-title">
+          <span class="lead-text">松戸市で根本改善なら</span>
+          <span class="brand-wrap"><span class="brand">夢の鍼灸整骨院・整体院</span></span>
+        </h1>
+        <div class="hero-stars">★ ★ ★ ★ ★</div>
+        <div class="hero-catch-wrap">
+          <p class="hero-catch">つらい思いをしている人たちを<br><span class="emphasis">助けたい。</span>その想いはただひとつ。</p>
+        </div>
+        <div class="hero-tags">
+          <span class="hero-tag">土日も営業</span>
+          <span class="hero-tag">女性施術家在籍</span>
+          <span class="hero-tag">平日20時まで</span>
+        </div>
+      </div>
+      <div class="hero-image"><img src="260416_yumenoseitaiin_matudoten_059.jpg" alt="施術風景"></div>
+    </div>
+  </section>
+
+  <div class="period"><span class="label">期間限定</span>7/1(火) 〜 7/31(木) まで</div>
+
+  <section class="offers">
+    <div class="offer-card offer-first">
+      <span class="offer-badge">初めての方 限定特典</span>
+      <!-- 画像を使う場合：以下のコメントを外して画像ファイル名を指定 -->
+      <!-- <div class="offer-image"><img src="offer.jpg" alt="初回限定特典"></div> -->
+      <div class="offer-title">通常 <span class="old-price">7,960円</span><span style="font-size:11px">(税込)</span></div>
+      <div class="offer-price-new">1,980<span class="yen">円</span><span class="tax">(税込)</span></div>
+      <div class="offer-includes">カウンセリング ＋ 検査 ＋ 施術</div>
+    </div>
+  </section>
+
+  <!-- お悩み -->
+  <div class="section-label">CHECK</div>
+  <div class="section-header">こんなお悩みはありませんか？</div>
+  <section class="troubles">
+    <div class="trouble-grid">
+      <ul class="trouble-list">
+        <li>長年の腰痛・肩こりがつらい</li>
+        <li>他院に通っても改善しない</li>
+        <li>膝や股関節の痛みが年々ひどい</li>
+        <li>神経痛やヘルニアが良くならない</li>
+        <li>シップ・痛み止めに頼りたくない</li>
+        <li>姿勢や骨盤の歪みが気になる</li>
+        <li>整体は初めてで不安</li>
+        <li>頭痛・自律神経の乱れがつらい</li>
+      </ul>
+      <div class="trouble-image"><img src="260416_yumenoseitaiin_matudoten_077.jpg" alt="お悩みイメージ"></div>
+    </div>
+  </section>
+
+  <!-- お任せください -->
+  <section class="message-block">
+    <h2 class="message-block-title">
+      <span class="accent">そのお悩み、私たちにお任せください！</span>
+      「つらい思いをしている人を助けたい」
+    </h2>
+    <p class="message-block-text">
+      皆さん、症状の本当の原因をご存知でしょうか？病院や他院に通って色々と受けても良くならないのは、この本当の原因にアプローチ出来ていないからです。<br><br>
+      実は、症状の本当の原因は<strong>姿勢の歪みや筋肉・神経の乱れ</strong>にあります。痛みがある表面的な部分にどれだけ電気を当てたり、マッサージなどをしても、原因の中のひとつを解決できたとしても、症状は結局ぶり返してきます。<br><br>
+      だからこそ、当院では<strong>お身体を総合的に見て</strong>、歪みや筋肉、神経の全てにアプローチすることで、早期の根本改善を実現しております。
+    </p>
+  </section>
+
+  <!-- 選ばれる理由3つ -->
+  <div class="section-label">REASON</div>
+  <div class="section-header">当院が選ばれる理由</div>
+  <section class="reasons">
+    <div class="reason-card">
+      <div class="reason-number">01</div>
+      <!-- 画像を使う場合：以下のコメントを外して画像ファイル名を指定 -->
+      <!-- <div class="reason-icon-image"><img src="reason1.jpg" alt="整体メソッド"></div> -->
+      <div class="reason-icon">🦴</div>
+      <div class="reason-title">姿勢を改善して根本から解決する<br>独自の整体メソッド</div>
+      <div class="reason-text">骨格調整や深層筋調整を組み合わせ、痛みの原因となる筋肉と関節へアプローチします。歪みや筋肉、神経の全てを総合的に整えることで、可動域と本来の動きを回復させます。</div>
+    </div>
+    <div class="reason-card">
+      <div class="reason-number">02</div>
+      <!-- <div class="reason-icon-image"><img src="reason2.jpg" alt="カウンセリング"></div> -->
+      <div class="reason-icon">🔍</div>
+      <div class="reason-title">痛みの《本当の原因》を見つける<br>丁寧なカウンセリング＆検査</div>
+      <div class="reason-text">姿勢分析撮影、全身の関節・筋肉・神経の状態を丁寧に検査し、原因を特定します。検査後は<strong>分かりやすく説明</strong>。しっかりご理解・ご納得頂いてから施術に入ります。</div>
+    </div>
+    <div class="reason-card">
+      <div class="reason-number">03</div>
+      <!-- <div class="reason-icon-image"><img src="reason3.jpg" alt="アフターフォロー"></div> -->
+      <div class="reason-icon">🏠</div>
+      <div class="reason-title">徹底的なアフターフォロー<br>再発しない体づくり</div>
+      <div class="reason-text">ご自宅でも身体のケアが出来る簡単なストレッチや体操など、症状やお身体の状態に合わせたセルフケア指導にも力を入れております。施術の効果を加速させ、再発しない身体を手に入れましょう。</div>
+    </div>
+  </section>
+
+  <!-- 4つの疑問にお答えします -->
+  <section class="question-block">
+    <div class="question-label">QUESTION</div>
+    <p class="question-intro">これから、あなたのお体の<br>「未来」についてお話しします</p>
+    <div class="question-grid">
+      <div class="question-card">
+        <div class="question-card-num">1</div>
+        <div class="question-card-text">今、自分のお体は<strong>どうなっているのか？</strong></div>
+      </div>
+      <div class="question-card">
+        <div class="question-card-num">2</div>
+        <div class="question-card-text">なぜ、今まで<strong>よくならなかったのか？</strong></div>
+      </div>
+      <div class="question-card">
+        <div class="question-card-num">3</div>
+        <div class="question-card-text">今後どのような<strong>施術が必要なのか？</strong></div>
+      </div>
+      <div class="question-card">
+        <div class="question-card-num">4</div>
+        <div class="question-card-text">どの状態まで<strong>持っていく必要があるか？</strong></div>
+      </div>
+    </div>
+    <p class="question-conclusion">これらの疑問に、すべてお答えします。</p>
+  </section>
+
+  <!-- 危険信号 -->
+  <div class="section-label">WARNING</div>
+  <div class="section-header">その痛み、放置していませんか？</div>
+  <section class="warning-block">
+    <div class="warning-flow">
+      <div class="warning-step lv1">
+        <!-- <div class="warning-step-image"><img src="warning1.jpg" alt="違和感"></div> -->
+        <div class="warning-step-icon">🔔</div>
+        <div class="warning-step-label">違和感<br>＝アラーム</div>
+        <div class="warning-step-desc">体の小さな異常を知らせる<br>最初のサイン</div>
+      </div>
+      <div class="warning-step lv2">
+        <!-- <div class="warning-step-image"><img src="warning2.jpg" alt="痛み"></div> -->
+        <div class="warning-step-icon">🔥</div>
+        <div class="warning-step-label">痛み<br>＝小さな火事</div>
+        <div class="warning-step-desc">異常が進行中。<br>原因への対処が必要</div>
+      </div>
+      <div class="warning-step lv3">
+        <!-- <div class="warning-step-image"><img src="warning3.jpg" alt="重症"></div> -->
+        <div class="warning-step-icon">🚨</div>
+        <div class="warning-step-label">重症<br>＝大火事</div>
+        <div class="warning-step-desc">緊急の対応が必要な<br>危険な状態</div>
+      </div>
+    </div>
+    <div class="warning-conclusion">
+      <strong>警報機（痛み）を止めるだけでは解決しません</strong>
+      薬やマッサージは、火事を消さずにアラームを止めるのと同じです。筋肉・靭帯・骨・神経などの異常な状態に対処すること。それが本当の解決策です。
+    </div>
+  </section>
+
+  <!-- 4つの根本原因 -->
+  <div class="section-label">CAUSE</div>
+  <div class="section-header">痛みを引き起こす「4つの根本原因」</div>
+  <section class="causes">
+    <div class="cause-grid">
+      <div class="cause-card">
+        <!-- 画像を使う場合：絵文字の<div>を以下のように画像に書き換え -->
+        <!-- <div class="cause-card-icon"><img src="cause1.jpg" alt="骨格の歪み"></div> -->
+        <div class="cause-card-icon">🦴</div>
+        <div class="cause-card-num">①</div>
+        <div class="cause-card-title">骨格の歪み</div>
+        <div class="cause-card-text">骨盤の傾きや脊柱側弯により、身体全体のバランスが崩れ、特定の部位に過度な負荷がかかります。</div>
+      </div>
+      <div class="cause-card">
+        <!-- <div class="cause-card-icon"><img src="cause2.jpg" alt="姿勢不良"></div> -->
+        <div class="cause-card-icon">🧍</div>
+        <div class="cause-card-num">②</div>
+        <div class="cause-card-title">姿勢不良</div>
+        <div class="cause-card-text">猫背や前傾姿勢など、悪い姿勢の習慣が首・肩・腰への慢性的な負担を引き起こします。</div>
+      </div>
+      <div class="cause-card">
+        <!-- <div class="cause-card-icon"><img src="cause3.jpg" alt="筋力低下"></div> -->
+        <div class="cause-card-icon">💪</div>
+        <div class="cause-card-num">③</div>
+        <div class="cause-card-title">筋力低下</div>
+        <div class="cause-card-text">インナーマッスルが弱まると身体の軸が不安定になり、関節や骨格を支えられなくなります。</div>
+      </div>
+      <div class="cause-card">
+        <!-- <div class="cause-card-icon"><img src="cause4.jpg" alt="栄養・水分不足"></div> -->
+        <div class="cause-card-icon">💧</div>
+        <div class="cause-card-num">④</div>
+        <div class="cause-card-title">栄養・水分不足</div>
+        <div class="cause-card-text">水分や栄養が不足すると関節液が減少し、筋肉の硬直や回復力の低下を招きます。</div>
+      </div>
+    </div>
+    <p class="cause-conclusion">痛みの原因の多くは、<strong>日常生活の習慣や癖</strong>から作られます。</p>
+  </section>
+
+  <!-- 対処vs根本 -->
+  <div class="section-label">COMPARE</div>
+  <div class="section-header">対処療法と根本改善の違い</div>
+  <section class="compare">
+    <div class="compare-grid">
+      <div class="compare-col compare-bad">
+        <!-- 画像を使う場合：以下のコメントを外して画像を指定 -->
+        <!-- <div class="compare-image bad"><img src="compare-bad.jpg" alt="対処療法"></div> -->
+        <div class="compare-mark bad">✗</div>
+        <div class="compare-title bad">対処療法</div>
+        <ul class="compare-list">
+          <li>湿布</li>
+          <li>注射</li>
+          <li>薬</li>
+          <li>ただのマッサージ</li>
+        </ul>
+        <div class="compare-result">→ すぐに再発する</div>
+      </div>
+      <div class="compare-col compare-good">
+        <!-- <div class="compare-image good"><img src="compare-good.jpg" alt="根本改善"></div> -->
+        <div class="compare-mark good">✓</div>
+        <div class="compare-title good">根本改善</div>
+        <ul class="compare-list">
+          <li>姿勢改善</li>
+          <li>骨盤矯正</li>
+          <li>動作改善</li>
+          <li>生活指導</li>
+        </ul>
+        <div class="compare-result">→ お悩みを繰り返さない</div>
+      </div>
+    </div>
+    <div class="compare-final">
+      痛みを取るだけでなく、<br><strong>「痛くならない体」を作ること</strong>が本当のゴールです。
+    </div>
+  </section>
+
+  <!-- 3本柱 -->
+  <div class="section-label">SOLUTION</div>
+  <div class="section-header">当院の解決策「根本改善の3本柱」</div>
+  <section class="solution">
+    <div class="solution-grid">
+      <div class="solution-card">
+        <div>
+          <div class="solution-num">01<span class="solution-num-label">STEP</span></div>
+        </div>
+        <div>
+          <div class="solution-content-title">骨盤・姿勢矯正</div>
+          <div class="solution-content-tag">構造を整える</div>
+          <div class="solution-content-text">歪んだ骨格を正しい位置に戻し、体全体のバランスを根本から改善します。</div>
+        </div>
+      </div>
+      <div class="solution-card">
+        <div>
+          <div class="solution-num">02<span class="solution-num-label">STEP</span></div>
+        </div>
+        <div>
+          <div class="solution-content-title">インナーマッスル強化</div>
+          <div class="solution-content-tag">身体の軸を強化</div>
+          <div class="solution-content-text">深層筋を鍛え体の軸を安定させ、再発しない強い身体づくりをサポートします。</div>
+        </div>
+      </div>
+      <div class="solution-card">
+        <div>
+          <div class="solution-num">03<span class="solution-num-label">STEP</span></div>
+        </div>
+        <div>
+          <div class="solution-content-title">セルフケア・生活指導</div>
+          <div class="solution-content-tag">体内環境を整える</div>
+          <div class="solution-content-text">体の内側から回復力を高め、施術効果を最大限に引き出す習慣をご提案します。</div>
+        </div>
+      </div>
+    </div>
+    <p class="solution-conclusion">この3つのアプローチで<br><strong>「再発しない体」</strong>を作ります。</p>
+  </section>
+
+  <!-- 当院が選ばれる8つの特徴 -->
+  <div class="section-label">FEATURES</div>
+  <div class="section-header">当院が選ばれる8つの特徴</div>
+  <section class="features">
+    <div class="feature-card"><div class="feature-num">1</div><div class="feature-title">お一人お一人の時間を大切にしています</div><div class="feature-text">皆様のお悩みや不安に寄り添い、話をお伺いすることを大切にしております。安心して施術を受けられるよう、気になる事・不安な事があれば何でもお話ください。</div></div>
+    <div class="feature-card"><div class="feature-num">2</div><div class="feature-title">本当の原因を特定するための検査も徹底</div><div class="feature-text">根本改善のためには原因を知ることが必要不可欠。身体の状態をデータ化し、全身の関節・筋肉・神経の状態を把握、原因を特定していきます。</div></div>
+    <div class="feature-card"><div class="feature-num">3</div><div class="feature-title">痛みの無いソフトな整体が評判</div><div class="feature-text">当院ではボキボキする痛みのある施術ではなく、ソフトな整体を提供しております。お子様や妊娠中の方でも受けて頂けます。</div></div>
+    <div class="feature-card"><div class="feature-num">4</div><div class="feature-title">国家資格取得者のみが施術を担当</div><div class="feature-text">歴20年の代表を筆頭に、豊富な臨床経験を持つ施術家が担当します。無資格者や学生が担当するようなことはございません。</div></div>
+    <div class="feature-card"><div class="feature-num">5</div><div class="feature-title">充実したアフターフォロー</div><div class="feature-text">ご自宅でも身体のケアが出来る簡単なストレッチや体操など、症状に合わせたセルフケア指導に力を入れております。再発しない身体を手に入れましょう。</div></div>
+    <div class="feature-card"><div class="feature-num">6</div><div class="feature-title">キッズスペース完備・女性施術者も在籍</div><div class="feature-text">女性施術者・女性の受付担当がおり、キッズスペースを設置していますので子育てで忙しい女性にとっても優しい施術空間を作っております。</div></div>
+    <div class="feature-card"><div class="feature-num">7</div><div class="feature-title">有名雑誌でも多数紹介</div><div class="feature-text">「ひよこクラブ」「からだにいいこと」に美と健康を叶える凄腕院として紹介されました。</div></div>
+    <div class="feature-card"><div class="feature-num">8</div><div class="feature-title">土日も営業・平日は最終受付20時まで</div><div class="feature-text">仕事でお忙しい方にも安心して通っていただくために、土曜・日曜の営業もしております。お休みがなかなか取れない方も通いやすいと好評です。</div></div>
+  </section>
+
+  <!-- お客様の声 -->
+  <div class="section-label">VOICE</div>
+  <div class="section-header">お客様の声</div>
+  <section class="voices">
+    <div class="voice-card">
+      <div class="voice-header">
+        <!-- アバター画像を使う場合：以下のコメントを外して画像を指定 -->
+        <!-- <div class="voice-avatar"><img src="voice1.jpg" alt="M.K様"></div> -->
+        <div class="voice-avatar">M</div>
+        <div class="voice-meta"><div class="voice-name">M.K 様（50代・女性）</div><div class="voice-info">坐骨神経痛でお悩みでした</div></div>
+        <div class="voice-stars">★★★★★</div>
+      </div>
+      <div class="voice-title">「歩くのが楽になりました」</div>
+      <div class="voice-text">長年悩んでいた足のしびれが、通院してから少しずつ改善しました。スタッフの皆さんが親身に話を聞いてくれて、施術内容も丁寧に説明してくださるので安心して通えます。</div>
+    </div>
+    <div class="voice-card">
+      <div class="voice-header">
+        <!-- <div class="voice-avatar"><img src="voice2.jpg" alt="T.S様"></div> -->
+        <div class="voice-avatar">T</div>
+        <div class="voice-meta"><div class="voice-name">T.S 様（40代・男性）</div><div class="voice-info">慢性的な腰痛でお悩みでした</div></div>
+        <div class="voice-stars">★★★★★</div>
+      </div>
+      <div class="voice-title">「朝の腰の重さが消えました」</div>
+      <div class="voice-text">デスクワークでの腰痛がひどく、朝起きるのもつらい状態でした。原因から丁寧に説明してもらい、姿勢の改善まで含めて指導いただいたおかげで快適に過ごせています。</div>
+    </div>
+    <div class="voice-card">
+      <div class="voice-header">
+        <!-- <div class="voice-avatar"><img src="voice3.jpg" alt="Y.H様"></div> -->
+        <div class="voice-avatar">Y</div>
+        <div class="voice-meta"><div class="voice-name">Y.H 様（60代・女性）</div><div class="voice-info">肩こり・頭痛でお悩みでした</div></div>
+        <div class="voice-stars">★★★★★</div>
+      </div>
+      <div class="voice-title">「薬に頼らない毎日に」</div>
+      <div class="voice-text">頭痛薬が手放せなかったのですが、首・肩から整えていただくうちに薬の量が減りました。先生方が明るく、毎回通うのが楽しみです。</div>
+    </div>
+    <p class="voice-disclaimer">※ お客様の感想は個人の体験に基づくものであり、効果・効能を保証するものではありません。施術効果には個人差があります。</p>
+  </section>
+
+  <!-- FAQ -->
+  <div class="section-label">FAQ</div>
+  <div class="section-header">よくあるご質問</div>
+  <section class="faq">
+    <div class="faq-item">
+      <button class="faq-question">予約は必要ですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">はい、より丁寧な施術のため予約優先制となっております。お電話または各院の予約サイトからご予約ください。当日のご予約も空き状況によりご対応可能です。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">痛くないですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">ソフトで痛みの少ない施術を基本に、状態に合わせて調整します。ボキボキするような痛みのある施術は行っておりませんので、お子様や妊娠中の方でも安心してお受けいただけます。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">健康保険は使えますか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">急性のケガ（捻挫・打撲・挫傷など）については健康保険適用となる場合があります。慢性的な肩こり・腰痛などは保険適用外となります。詳しくは受付でご相談ください。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">どのくらい通えばいいですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">症状や目標によりますが、初めは週1〜2回をおすすめすることが多いです。症状の改善具合に応じて、通院頻度を調整してまいります。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">どんな服装で行けばいいですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">動きやすい服装が望ましいですが、お仕事帰りでもご安心ください。お着替え（施術着）を無料でご用意しております。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">施術時間はどれくらいですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">初回はカウンセリング・検査・施術を含めて約60〜90分、2回目以降は約30〜45分が目安です。お身体の状態によって前後する場合があります。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">支払い方法は？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">現金・各種クレジットカード・電子マネー・QRコード決済に対応しております。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">妊娠中・産後でも施術は受けられますか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">妊娠中の方や産後の方への施術にも対応しております。お身体の状態に合わせた施術プランをご提案いたしますので、事前にご相談ください。</div></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">相談だけでも大丈夫ですか？</button>
+      <div class="faq-answer"><div class="faq-answer-inner">はい、大丈夫です！「自分の症状でもみてもらえる？」「まずは話を聞いてみたい」という方も、お気軽にご相談ください。来院前に確認してからご予約いただけます。</div></div>
+    </div>
+  </section>
+
+  <!-- 電話予約 -->
+  <div class="section-label">CONTACT</div>
+  <div class="section-header">お電話でかんたん予約</div>
+  <section class="reserve-section" id="reserveForm">
+    <p class="reserve-intro">お気軽にお電話ください。<br>ご希望の院へ直接おつなぎいたします。</p>
+    <div class="tel-grid">
+      <a href="tel:0477118393" class="tel-card">
+        <div class="tel-clinic-name">みのり台院</div>
+        <div class="tel-station">「みのり台」駅 徒歩1分</div>
+        <div class="tel-number">📞 047-711-8393</div>
+      </a>
+      <a href="tel:0473838393" class="tel-card">
+        <div class="tel-clinic-name">八柱院</div>
+        <div class="tel-station">「八柱駅」 徒歩2分</div>
+        <div class="tel-number">📞 047-383-8393</div>
+      </a>
+      <a href="tel:0477015123" class="tel-card">
+        <div class="tel-clinic-name">松戸院</div>
+        <div class="tel-station">「松戸駅」 徒歩3分</div>
+        <div class="tel-number">📞 047-701-5123</div>
+      </a>
+      <a href="tel:0473825536" class="tel-card">
+        <div class="tel-clinic-name">五香院</div>
+        <div class="tel-station">「五香駅」 徒歩1分</div>
+        <div class="tel-number">📞 047-382-5536</div>
+      </a>
+    </div>
+    <p class="form-note">受付時間 平日10:00〜14:00／16:00〜20:00　土日 9:00〜12:00／14:00〜16:00<br>※定休日：祝日</p>
+  </section>
+
+  <!-- 予約サイト -->
+  <section class="clinics">
+    <h2 class="clinics-title">各院の予約サイトはこちら</h2>
+    <p class="clinics-sub">タップすると各院の予約ページへ移動します</p>
+    <div class="clinic-grid">
+      <a href="https://example.com/minoridai/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">みのり台院</div><span class="clinic-cta">予約する ▶</span></a>
+      <a href="https://example.com/yabashira/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">八柱院</div><span class="clinic-cta">予約する ▶</span></a>
+      <a href="https://example.com/matsudo/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">松戸院</div><span class="clinic-cta">予約する ▶</span></a>
+      <a href="https://example.com/goko/reserve" class="clinic-card" target="_blank" rel="noopener"><div class="clinic-name">五香院</div><span class="clinic-cta">予約する ▶</span></a>
+    </div>
+  </section>
+
+  <!-- 注意事項 -->
+  <section class="disclaimer">
+    <h3>注意事項・免責事項</h3>
+    <ul>
+      <li>当院は医療機関ではなく、施術所（整骨院・接骨院）です。診断・診察・治療行為は行っておりません。</li>
+      <li>掲載しているお客様の声・体験談は個人の感想であり、施術効果を保証するものではありません。効果には個人差があります。</li>
+      <li>施術は医師の同意・指示のもとで行うものではなく、お客様ご自身の健康増進・身体ケアを目的としたものです。</li>
+      <li>急性外傷（捻挫・打撲・挫傷など）以外は健康保険適用外（自費施術）となります。</li>
+      <li>キャンペーン価格は表記の期間内・初回のみ適用となります。詳細は受付までお問い合わせください。</li>
+      <li>重度の症状・疾患をお持ちの方は、必ず事前に医療機関を受診し、医師にご相談のうえお越しください。</li>
+      <li>掲載されている写真はイメージです。実際の施術内容・設備とは異なる場合があります。</li>
+    </ul>
+    <p style="margin-top:12px">本ページは「医療広告ガイドライン」および「あはき・柔整広告ガイドライン」に準拠した表現を心がけて作成しております。</p>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">夢の鍼灸整骨院・整体院</div>
+    <div class="footer-info">
+      みのり台院・八柱院・松戸院・五香院<br>
+      受付時間 平日10:00〜14:00／16:00〜20:00　土日 9:00〜12:00／14:00〜16:00<br>
+      定休日：祝日<br>
+      <small style="opacity:0.6">© 夢の鍼灸整骨院・整体院 All Rights Reserved.</small>
+    </div>
+  </footer>
+
+</div>
+
+<div class="sticky-cta">
+  <a href="#reserveForm" class="sticky-reserve-main">📞 電話で予約</a>
+  <a href="#" onclick="document.querySelector('.clinics').scrollIntoView({behavior:'smooth'});return false;" class="sticky-form">🏥 院を選ぶ</a>
+</div>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => { btn.parentElement.classList.toggle('open'); });
+});
+</script>
+
+</body>
+</html>
